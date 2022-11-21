@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Form, Field } from 'react-final-form';
 import { InputText } from 'primereact/inputtext';
@@ -7,10 +6,6 @@ import { Password } from 'primereact/password';
 import { Divider } from 'primereact/divider';
 import { classNames } from 'primereact/utils';
 import Image from 'next/image'
-
-import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
-import "primereact/resources/primereact.min.css";                  //core css
-import "primeicons/primeicons.css";                                //icons
 
 import styles from '../styles/Login.module.css'
 import Link from 'next/link';
