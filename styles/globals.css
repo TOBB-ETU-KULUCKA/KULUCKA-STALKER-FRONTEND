@@ -7,13 +7,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Josefin Sans, cursive;;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Josefin Sans, cursive;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-
 }
 
 * {
@@ -30,7 +30,6 @@ a {
   }
 }
 
-
 /* FormDemo.css */
 
 .form-demo .card {
@@ -44,13 +43,13 @@ a {
 }
 @media screen and (max-width: 960px) {
   .form-demo .card {
-      width: 80%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 640px) {
   .form-demo .card {
-      width: 100%;
-      min-width: 0;
+    width: 100%;
+    min-width: 0;
   }
 }
 
@@ -122,4 +121,3 @@ a {
   color: white;
   text-decoration: none;
 }
-           
