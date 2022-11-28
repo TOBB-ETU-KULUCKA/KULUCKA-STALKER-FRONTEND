@@ -1,6 +1,7 @@
 import Head from "next/head"
 import { useState } from "react"
 import styles from "../styles/Main.module.scss"
+// import { ReactComponent as CirclePlus } from "../public/circle-plus.svg"
 
 export default function Main() {
   const [headerNumber, setHeaderNumber] = useState<number>(0)
@@ -70,7 +71,7 @@ export default function Main() {
         <div className="bg-cyan-600 w-1/5">
           {/* Header */}
           <div className="h-10 bg-cyan-500 flex items-center justify-around">
-            <h2 className="p-2 font-semibold">Selected</h2>
+            <h2 className="p-2 font-semibold">Evaluating</h2>
             <span>{headerNumber}</span>
           </div>
           {/* Main content */}
@@ -88,7 +89,7 @@ export default function Main() {
         <div className="bg-green-600 w-1/5">
           {/* Header */}
           <div className="h-10 bg-green-500 flex items-center justify-around">
-            <h2 className="p-2 font-semibold">Selected</h2>
+            <h2 className="p-2 font-semibold">Live</h2>
             <span>{headerNumber}</span>
           </div>
           {/* Main content */}
