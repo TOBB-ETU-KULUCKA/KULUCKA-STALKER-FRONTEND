@@ -8,7 +8,6 @@ import { classNames } from 'primereact/utils';
 import Image from 'next/image'
 
 import styles from '../styles/Login.module.css'
-import Link from 'next/link';
 
 type Data = {
   name: string,
@@ -80,22 +79,7 @@ const Register = () => {
   return (
     <div className={styles.container}>
 
-      <nav>
-        <div className="nav-bar-container-dark">
-          <Link href="/" className="link-dark">
-            <Image src="/images/kulucka.png" className="w-full" alt="Phone image" width={643} height={644} style={{ maxWidth: "100px", marginLeft: "10%" }} />
-          </Link>
-          <ul className="middle-items">
-            <li className="list-item">
-              <Link href="/login" className="link-dark">
-                Log In
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
       <main className={styles.main}>
-
 
         <section className="h-screen">
           <div className="container px-6 py-12 h-full">

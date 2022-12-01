@@ -5,7 +5,6 @@ import { Button } from 'primereact/button';
 import { Password } from 'primereact/password';
 import { classNames } from 'primereact/utils';
 import Image from 'next/image'
-import Link from 'next/link';
 
 import styles from '../styles/Login.module.css'
 
@@ -60,21 +59,6 @@ const Login = () => {
 
   return (
     <div className={styles.container}>
-      <nav>
-        <div className="nav-bar-container-dark">
-          <Link href="/" className="link-dark">
-
-            <Image src="/images/kulucka.png" className="w-full" alt="Phone image" width={643} height={644} style={{ maxWidth: "100px", marginLeft: "10%" }} />
-          </Link>
-          <ul className="middle-items">
-            <li className="list-item">
-              <Link href="/register" className="link-dark">
-                Register
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
       <main className={styles.main}>
         <section className="h-screen">
